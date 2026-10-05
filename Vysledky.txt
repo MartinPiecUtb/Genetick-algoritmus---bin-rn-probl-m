@@ -1,0 +1,69 @@
+Základ: populácia 50, elitizmus 10 %, mutácia 1 %, kríženie 100 %, ruletová selekcia, jednobodové kríženie.
+Štatistiky sú z najlepších konečných výsledkov 10 behov.
+Std = populačná smerodajná odchýlka (ddof=0).
+
+OneMax, 10D, limit 1000 ohodnotení na beh
+Nastavenie              Best Worst    Mean  Median     Std
+Zaklad                    10    10   10.00   10.00    0.00
+Populacia 30              10    10   10.00   10.00    0.00
+Populacia 100             10    10   10.00   10.00    0.00
+Elitizmus 20 %            10    10   10.00   10.00    0.00
+Mutacia 0.5 %             10    10   10.00   10.00    0.00
+Krizenie 80 %             10    10   10.00   10.00    0.00
+Poradova selekcia         10    10   10.00   10.00    0.00
+Najlepšie z testovaných: Poradova selekcia (priemer 10.00/10).
+
+OneMax, 30D, limit 3000 ohodnotení na beh
+Nastavenie              Best Worst    Mean  Median     Std
+Zaklad                    30    30   30.00   30.00    0.00
+Populacia 30              30    30   30.00   30.00    0.00
+Populacia 100             30    30   30.00   30.00    0.00
+Elitizmus 20 %            30    30   30.00   30.00    0.00
+Mutacia 0.5 %             30    30   30.00   30.00    0.00
+Krizenie 80 %             30    30   30.00   30.00    0.00
+Poradova selekcia         30    30   30.00   30.00    0.00
+Najlepšie z testovaných: Poradova selekcia (priemer 30.00/30).
+
+OneMax, 100D, limit 10000 ohodnotení na beh
+Nastavenie              Best Worst    Mean  Median     Std
+Zaklad                   100    98   99.20   99.50    0.87
+Populacia 30             100    98   99.30   99.00    0.64
+Populacia 100             99    95   97.90   98.00    1.22
+Elitizmus 20 %           100   100  100.00  100.00    0.00
+Mutacia 0.5 %            100    99   99.90  100.00    0.30
+Krizenie 80 %            100    98   99.30   99.50    0.78
+Poradova selekcia        100   100  100.00  100.00    0.00
+Najlepšie z testovaných: Poradova selekcia (priemer 100.00/100).
+
+Leading Ones, 10D, limit 1000 ohodnotení na beh
+Nastavenie              Best Worst    Mean  Median     Std
+Zaklad                    10    10   10.00   10.00    0.00
+Populacia 30              10    10   10.00   10.00    0.00
+Populacia 100             10    10   10.00   10.00    0.00
+Elitizmus 20 %            10    10   10.00   10.00    0.00
+Mutacia 0.5 %             10     9    9.90   10.00    0.30
+Krizenie 80 %             10    10   10.00   10.00    0.00
+Poradova selekcia         10     9    9.90   10.00    0.30
+Najlepšie z testovaných: Populacia 100 (priemer 10.00/10).
+
+Leading Ones, 30D, limit 3000 ohodnotení na beh
+Nastavenie              Best Worst    Mean  Median     Std
+Zaklad                    30    20   24.90   24.50    3.86
+Populacia 30              30    28   29.50   30.00    0.81
+Populacia 100             29    21   26.00   26.50    2.86
+Elitizmus 20 %            30    19   27.80   29.00    3.25
+Mutacia 0.5 %             30    20   23.80   23.00    3.19
+Krizenie 80 %             30    21   26.40   26.50    3.01
+Poradova selekcia         30    23   28.30   30.00    2.49
+Najlepšie z testovaných: Populacia 30 (priemer 29.50/30).
+
+Leading Ones, 100D, limit 10000 ohodnotení na beh
+Nastavenie              Best Worst    Mean  Median     Std
+Zaklad                    72    42   57.10   54.50   10.29
+Populacia 30              77    52   66.40   66.00    6.33
+Populacia 100             51    36   44.40   44.00    4.88
+Elitizmus 20 %            66    45   56.80   57.50    6.43
+Mutacia 0.5 %             64    31   44.30   44.00    8.65
+Krizenie 80 %             66    44   54.90   52.00    7.52
+Poradova selekcia         82    48   63.90   62.00    9.83
+Najlepšie z testovaných: Populacia 30 (priemer 66.40/100).
