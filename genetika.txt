@@ -1,0 +1,11 @@
+Experiment ukázal výrazný rozdiel medzi problémami OneMax a Leading Ones.
+
+Pri probléme OneMax dosiahol genetický algoritmus pri dimenziách 10D a 30D optimálne riešenie pri všetkých testovaných nastaveniach. Pri dimenzii 100D sa už objavili menšie rozdiely. Najlepšie výsledky dosiahla poradová selekcia a elitizmus 20 %, kde bol priemerný konečný výsledok 100/100.
+
+Leading Ones sa ukázal ako náročnejší problém. Pri 10D väčšina nastavení dosiahla optimum, ale pri 30D a 100D boli rozdiely výraznejšie. Najlepšie výsledky dosiahla menšia populácia s veľkosťou 30. Pri 30D dosiahla priemer 29.5/30 a pri 100D priemer 66.4/100.
+
+Výsledky zároveň ukázali, že väčšia populácia nemusí automaticky znamenať lepší výsledok. Populácia 100 bola pri Leading Ones 100D výrazne horšia než populácia 30. Dôvodom je, že pri pevnom limite počtu ohodnotení účelovej funkcie umožňuje menšia populácia vykonať viac generácií.
+
+Poradová selekcia sa ukázala ako vhodná najmä pri náročnejších úlohách. Naopak zníženie pravdepodobnosti mutácie z 1 % na 0.5 % viedlo pri Leading Ones k horším výsledkom.
+
+Z vykonaných experimentov možno ako vhodné nastavenie pre OneMax odporučiť elitizmus 20 % alebo poradovú selekciu. Pre Leading Ones sa ako najvýhodnejšia ukázala populácia 30, pričom dobré výsledky dosahovala aj poradová selekcia.
